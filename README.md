@@ -80,10 +80,17 @@ FUS is essentially a part of the device's firmware that operates independently o
 
 Overall, FUS is a critical component in STM32WB and other STM32 wireless microcontrollers, providing a secure means to update device firmware.
 
+- **STM32WB55_project5**:STM32WB55RG开发(5)----监测STM32WB连接状态
+- **CSDN Blog**:[https://blog.csdn.net/qq_24312945/article/details/144017115](https://blog.csdn.net/qq_24312945/article/details/144017115)
 
 
+STM32WB系列微控制器代表了STMicroelectronics在无线技术领域的新一代创新，集成了Bluetooth 5.0、Zigbee和Thread等多种无线通信协议。而在这些无线应用中，监测和管理连接状态显得尤为关键。确保可靠连接不仅对于数据的实时传输至关重要，而且在面对低功耗需求、设备管理和故障诊断时，都有着不可或缺的作用。
 
+本文将深入探讨STM32WB的连接状态监测机制。首先会讨论为什么需要监测连接状态，然后介绍STM32WB提供的相关工具和技术。随后，会详细解释如何使用这些工具来实时跟踪和管理连接状态，以及如何解读和响应不同的连接状态事件。通过这些内容，能够更好地理解和利用STM32WB的无线连接功能，为其应用带来更高的可靠性和效率。
 
+The STM32WB series microcontrollers represent a new generation of innovation from STMicroelectronics in the field of wireless technology, integrating multiple wireless communication protocols such as Bluetooth 5.0, Zigbee, and Thread. In these wireless applications, monitoring and managing connection status is particularly critical. Ensuring reliable connections is essential not only for real-time data transmission but also plays an indispensable role in addressing low power consumption requirements, device management, and fault diagnosis.
+
+This article will delve into the connection status monitoring mechanism of the STM32WB. It will begin by discussing the necessity of monitoring connection status, followed by an introduction to the tools and technologies provided by the STM32WB. Subsequently, it will explain in detail how to use these tools to track and manage connection status in real time, as well as how to interpret and respond to different connection status events. Through this content, you will gain a better understanding of and be able to leverage the wireless connectivity features of the STM32WB, enhancing the reliability and efficiency of its applications.
 
 
 
